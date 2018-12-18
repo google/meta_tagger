@@ -20,5 +20,5 @@
   "task_name":"meta_lstm_v6_e6",
   "min_occurrence":2,
   "lowercase":true,
-  "early_stopping_steps":0
+  "early_stopping_steps":1000
 }
