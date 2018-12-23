@@ -17,6 +17,7 @@ from __future__ import division
 from __future__ import print_function
 
 import codecs
+import json
 import os
 from absl import flags
 import numpy as np
