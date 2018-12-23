@@ -18,6 +18,11 @@ from __future__ import print_function
 
 import tensorflow as tf
 
+try:
+  xrange
+except NameError:
+  xrange = range
+
 
 def linear_with_dropout(is_training,
                         inputs,
